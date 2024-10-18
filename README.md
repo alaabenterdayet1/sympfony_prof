@@ -8,7 +8,7 @@ Ce dépôt contient le code source de mon projet Symfony.
 
 1. Accédez au répertoire backend :
     ```bash
-    cd backend
+    cd SYMPONY
     ```
 2. Installez les dépendances :
     ```bash
