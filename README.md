@@ -29,8 +29,14 @@ php bin/console doctrine:database:create
 
 ```
 ```bash
+```
+voici le lien pour acceder au route [https://127.0.0.1:8000/authors/].
 
-php bin/console doctrine:schema:update --force
+
+
+
+
+
 
 
 
