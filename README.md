@@ -1,20 +1,23 @@
-Symfony Project Setup
-This README provides instructions for setting up and running a Symfony project.
-Prerequisites
-Ensure you have the following installed:
+# Mon Projet
 
-PHP
-Composer
-Symfony CLI
+Ce dépôt contient le code source de mon projet Symfony.
 
-Database Setup
-To create the database, run the following command:
-bashCopyphp bin/console doctrine:database:create
-Running the Symfony Server
-Start the Symfony server with:
-bashCopysymfony serve
-Updating the Database Schema
-To update the database schema, run:
-bashCopyphp bin/console doctrine:schema:update --force
-Additional Information
-[Add any additional information about your project here, such as configuration steps, deployment instructions, or links to further documentation.]
+## Backend Symfony
+
+### Installation
+
+1. Accédez au répertoire backend :
+    ```bash
+    cd backend
+    ```
+2. Installez les dépendances :
+    ```bash
+    composer install
+    ```
+
+### Démarrage du serveur
+
+Le serveur Symfony sera démarré à l'adresse [http://localhost:8000](http://localhost:8000).
+
+```bash
+symfony serve
