@@ -19,5 +19,18 @@ Ce dépôt contient le code source de mon projet Symfony.
 
 Le serveur Symfony sera démarré à l'adresse [http://localhost:8000](http://localhost:8000).
 
-```bash
+```bashµ
 symfony serve
+  ```
+3.CONFIGRATION BASE DONNEE 
+```bash
+
+php bin/console doctrine:database:create
+
+```
+```bash
+
+php bin/console doctrine:schema:update --force
+
+
+
